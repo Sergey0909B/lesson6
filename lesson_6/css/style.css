@@ -1,0 +1,152 @@
+@import url("fonts.css");
+@import url("reset.css");
+
+body{
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+}
+/*-------------------------------------*/
+[class*= "__container"]{
+    max-width: 1199px;
+    padding: 15px 0;
+    margin: 0 auto;
+}
+
+.title{
+    color: #37393F;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.27;
+    text-transform: capitalize;
+
+}
+/*-------------------------------------*/
+.wraper {
+    min-height: 100%;
+    overflow: hidden;
+}
+.menu-list {
+    text-align: center;
+}
+.menu-list li{
+    display: inline-block;
+    color: rgba(0, 0, 255, 0.44);
+    margin-right: 10px;
+}
+/*-------------------------------------*/
+.consulting__container{
+    width: 692px;
+}
+.lesson-title {
+    text-align: center;
+    margin-bottom: 5px;
+}
+.title {
+}
+.consulting-image {
+    text-align: center;
+    margin-bottom: 24px;
+}
+.consulting-content {
+}
+.consulting-title {
+    color: #37393F;
+    margin-bottom: 5px;
+}
+.consulting-text {
+    color: #7D7D7D;
+    font-size: 18px;
+    line-height: 1.46;
+    max-width: 692px;
+    margin-bottom: 40px;
+}
+.consulting-subtitle {
+    color: #6B77E5;
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+/*-------------------------------------*/
+.benefits {
+    margin-bottom: 50px;
+}
+.benefits-image {
+    display: inline-block;
+}
+
+.benefits-image {
+    margin-right: 23px; 
+}
+.benefits-content {
+    display: inline-block;
+    vertical-align: top;
+    max-width: 332px;
+
+}
+.benefits-title {
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.benefits-subtitle {
+    color: #40DDB6;
+    font-size: 20px;
+}
+.benefits-list {
+    color: #7D7D7D;
+    line-height: 1.2;
+    padding-left: 10px;
+}
+
+.benefits-list  li{
+    padding-top: 35px;
+}
+/*-------------------------------------*/
+
+
+.jewellery {
+    margin-bottom: 50px;
+}
+.jewellery-content {
+	display: inline-block;
+	padding: 21px 0;
+	max-width: 563px;
+	margin-right: 38px;
+    vertical-align: top;
+}
+.jewellery-subtitle {
+    color: #D06B00;
+    font-size: 28px;
+    padding: 13px 0;
+    font-weight: 400;
+}
+.jewellery-title {
+    color: #0E333D;
+    font-family: DM Serif Text;
+    font-size: 59px;
+    line-height: 1.46;
+}
+.jewellery-text {
+    max-width: 563px;
+    color: #474747;
+    font-size: 20px;
+    line-height: 1.8;
+}
+.jewellery-image {
+    display: inline-block;
+    max-width: 568px;
+}
+
+.jewellery-image img{
+    max-width: 100%;
+}
+
+/*-------------------------------------*/
+
+
+.practica-scroll{
+    max-width: 700px;
+    overflow: scroll;
+}
+.block{
+    color: red;
+}
